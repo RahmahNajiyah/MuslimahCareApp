@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_morningstep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.muslimahcare.Morningstep">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalb"
+            android:text="step 1\nCleanser"
+            android:textAlignment="center"
+            android:id="@+id/btncleanser"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalb"
+            android:text="step 2\nToner"
+            android:textAlignment="center"
+            android:id="@+id/btnToner"
+            android:layout_below="@id/btncleanser"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalb"
+            android:text="step 3\nSerum"
+            android:textAlignment="center"
+            android:id="@+id/btnSerum"
+            android:layout_below="@id/btnToner"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalb"
+            android:text="step 4\nPelembab"
+            android:textAlignment="center"
+            android:id="@+id/btnPelembab"
+            android:layout_below="@id/btnSerum"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalb"
+            android:text="step 5\nSunscreen"
+            android:textAlignment="center"
+            android:id="@+id/btnSun"
+            android:layout_below="@id/btnPelembab"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

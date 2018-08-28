@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pagi5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.muslimahcare.Pagi5">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager5"
+        android:background="#ffffff"></android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

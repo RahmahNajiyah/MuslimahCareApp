@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nightstep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.muslimahcare.Nightstep">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/modalm2b"
+        android:text="step 1\nMakeup remover"
+        android:textAlignment="center"
+        android:id="@+id/btnremover"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/modalm2b"
+        android:text="step 2\nCleanser"
+        android:textAlignment="center"
+        android:id="@+id/btncleanmalam"
+        android:layout_below="@id/btnremover"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/modalm2b"
+        android:text="step 3\nToner"
+        android:textAlignment="center"
+        android:id="@+id/btntonermalam"
+        android:layout_below="@id/btncleanmalam"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/modalm2b"
+        android:text="step 4\nEye cream"
+        android:textAlignment="center"
+        android:id="@+id/btneye"
+        android:layout_below="@id/btntonermalam"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/modalm2b"
+        android:text="step 5\nSpecial treatment"
+        android:textAlignment="center"
+        android:id="@+id/btnspecial"
+        android:layout_below="@id/btneye"
+        android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalm2b"
+            android:text="step 6\nSerum"
+            android:textAlignment="center"
+            android:id="@+id/btnserummalam"
+            android:layout_below="@id/btnspecial"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:background="@drawable/modalm2b"
+            android:text="step 7\nNight cream / pelembab"
+            android:textAlignment="center"
+            android:id="@+id/btnnight"
+            android:layout_below="@id/btnserummalam"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

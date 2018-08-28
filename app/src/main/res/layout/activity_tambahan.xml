@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tambahan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FCE4EC"
+    tools:context="com.rahmahnajiyahimtihan.muslimahcare.Tambahan">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Exfoliate"
+        android:id="@+id/btnex"
+        android:background="#ffffff"
+        android:textColor="#F48FB1"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="holistik"
+        android:id="@+id/btnholi"
+        android:layout_below="@id/btnex"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textColor="#F48FB1"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="tepuk aman"
+        android:layout_below="@id/btnholi"
+        android:id="@+id/btntepuk"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textColor="#F48FB1"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Masker"
+        android:layout_below="@id/btntepuk"
+        android:id="@+id/btnmask"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textColor="#F48FB1"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
